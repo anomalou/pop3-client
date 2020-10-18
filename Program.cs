@@ -7,8 +7,8 @@ namespace pop3_client_csharp
         static POP3 pop3;
         static void Main(string[] args)
         {
-            pop3 = new POP3("mail.oreluniver.ru", 110);
-            pop3.Login("cio01", "cio01p");
+            pop3 = new POP3("domain", 110);
+            pop3.Login("", ""); //login password
         }
     }
 }
